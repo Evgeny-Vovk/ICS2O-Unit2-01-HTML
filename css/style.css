@@ -1,0 +1,15 @@
+/* Created by: Evgeny Vovk
+* Created on: Fab 2022
+* This CSS file defines the style for index.html ICS2O-Unit2-01-HTML
+*/
+
+body {
+  background-color: coral;
+}
+
+p {
+  background-color: purple;
+  margin-right: 90em;
+  border: 2px solid white;
+  margin-left: 1em;
+}

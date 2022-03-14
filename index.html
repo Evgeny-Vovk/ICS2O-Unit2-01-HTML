@@ -10,21 +10,28 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png"/>
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png"/>
     <link rel="manifest" href="./favicon/site.webmanifest"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.purple-light_blue.min.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
     <title>Unit2-01 website.</title>
   </head>
   <body>
-    <script href="./js/script.js"></script>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="./js/script.js"></script>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Hello, World!, with JS</span>
+          <span class="mdl-layout-title">Website using JS</span>
         </div>
       </header>
-    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-    onclick="buttonclicked()">
-          Say "Hello, World!"
-    </button>
+      <main class="mdl-layout__content">
+        <!-- Raised button with ripple -->
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="myButtonClicked()">
+          Say "Hello, World !"
+        </button>
+        <!-- basic text -->
+        <div id="Hello world"></div>
+      </main>
+    </div>
   </body>
 </html>

@@ -1,9 +1,7 @@
-// Copyright (c) 2020 Mr. Coxall All rights reserved
-//
-// Created by: Mr. Coxall
-// Created on: Sep 2020
+// Created by: Evgeny Vovk
+// Created on: Mar 2022
 // This file contains the JS functions for index.html
 
-function buttonclicked() {
-  document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>";
+function myButtonClicked() {
+  document.getElementById("Hello world").innerHTML = "<p>Hello, World!</p>";
 }
